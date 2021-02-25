@@ -1,6 +1,8 @@
 --------------------------------------------TO RUN PROJECT--------------------------------------------------
 ====OPEN CMD====
 _______________________________
+install MongoDB : https://www.mongodb.com/try/download/community?tck=docs_server
+create a database in mongodb and name it as :- mypizza
 pip install -r requirements.txt
 _______________________________
 
