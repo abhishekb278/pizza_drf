@@ -1,0 +1,27 @@
+--------------------------------------------TO RUN PROJECT--------------------------------------------------
+====OPEN CMD====
+_______________________________
+pip install -r requirements.txt
+_______________________________
+cd API3
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+
+
+
+________________________________________________________________________________________________________________
+
+	API endpoint to create regular pizza and a square pizza 
+	http://127.0.0.1:8000/pizza/
+
+        Lists the information about all the stored pizza
+	http://127.0.0.1:8000/listpizza/
+
+	Filtering the list of pizza returned by the API based on Size & Type of Pizza
+	http://127.0.0.1:8000/listpizza/?types=Regular&sizes=2
+
+	API endpoint that allows the user to edit or delete any pizza
+	http://127.0.0.1:8000/modpizza/1/
+
+
