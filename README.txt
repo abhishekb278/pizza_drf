@@ -11,6 +11,9 @@ python manage.py runserver
 
 
 ________________________________________________________________________________________________________________
+After python manage.py runserver
+Go to these urls in chrome
+________________________
 
 	API endpoint to create regular pizza and a square pizza 
 	http://127.0.0.1:8000/pizza/
