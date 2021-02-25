@@ -3,7 +3,7 @@
 _______________________________
 pip install -r requirements.txt
 _______________________________
-cd API3
+
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
